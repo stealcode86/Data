@@ -1,0 +1,287 @@
+Day 1
+
+1) Data
+
+Data Discovery is the process of gathering the data from various sources and profiling the datasets to produce field-level data statistics and identify right data.
+
+Data ingestion is the movement of data from various sources to an organization's storage medium, where it can be processed and analyzed. 
+Usually the destination is a data warehouse, data mart, database or a paper store.
+
+Data Wrangling & Transformation is the process of cleaning, structuring and enriching raw data in a desired format in order to make better decisions in less time.
+
+Data Analysis is the process of discovering useful business insights to take decisions based on the data. 
+
+Data Visualization is the graphical representation of the data. Data visualization tools offer an interactive way to see and interpret trends, 
+outliers and patterns in data with the use of visual elements such as charts, graphs and maps.
+
+2) Data is classified into Quantitaive and Qualitative. Quantitative is further classified into Discrete and Continuous.
+
+In statistics, there are four data measurement scales: Nominal, Ordinal, Interval, and Ratio.
+
+Nominal and Ordinal - Qualitative 
+Interval and Ratio - Quantitative 
+
+3) Population refers to the entire group used for analysis.
+ 
+Sample is a part of the population used for analysis. Size of the sample is always lesser than the size of the population from which it is taken.
+
+Descriptive statistics describes the data.
+
+In Inferential statistics, the inferences for the entire population is made based on the inferences drawn for the sample taken from the population.
+
+
+4) Descriptive statistics helps in describing the data.
+
+Measures of central tendency - Mean, Mode, Median, Percentile
+
+Measures of Dispersion - Range, Standard Deviation, Inter-Quartile Range
+
+Measures of Shape - Skewness, Kutosis
+
+5) Inferential statistics helps to draw inferences or conclusions from the data
+
+Probability distributions like normal distribution, Students T Distribution, Chi Squared Distribution. 
+Hypothesis testing - T Test and Chi Squared Test. 
+Regression Analysis.
+
+6) Central tendency measures are statistical measures used to describe a sample using a single value. 
+This value could be the most typical value found in the data set or the value that lies at the center of the data.
+
+Arithmetic Mean or mean in general refers to the average value of a given data feature. 
+Median is the value that lies at the center of the data set when data is ordered. It divides the dataset into two equal parts.
+
+Mode is the most observed value in a set of data. The mode is useful when the data being analyzed is non-numeric.
+It is possible to have more than one mode in a set of data.  Two modes are called bimodal, three modes are called trimodal and above three, it is called multi-modal.
+
+7) Dispersion helps us identify the spread of data or variability in the dataset.
+
+The range is the simplest measure of dispersion. The range is calculated as maximum value in a data set - minimum value in a data set. 
+
+Variance is a better indicator of dispersion – it describes the deviation of data from each other and from the mean
+
+A variance of zero indicates that all of the data values are identical. All non-zero variances are positive. 
+A small variance indicates that the data points tend to be very close to the mean, and to each other. 
+A high variance indicates that the data points are very spread out from the mean, and from one another.
+To get more concrete spread in terms of exact distances from the mean, we use Standard Deviation.
+
+Standard deviation is the most used dispersion measure. It provides the measure of variation of data relative to its mean. Standard deviation is expressed in the same unit as the data.
+
+A high standard deviation indicates that the data values are spread far away from the mean. A low standard deviation indicates that all the data values are close to the mean.
+
+S.D =Sqaure root ( Variance )
+
+Percentile divides the dataset into 100 equal parts. We can have percentile 1 to percentile 99. It is the number where certain percentage of values fall below that number.
+
+Steps to calculate percentile:
+
+Arrange the dataset in ascending or descending order
+Calculate index: index (i)= P * n/100 where P is the percentile and n is the size of the data
+If the index is not a whole number, round it off to the nearest whole number and identify the value in the data set at the obtained index – this is the percentile value
+If the index is a whole number, the percentile value is the average of values at the index and value at index+1
+
+Quartile divides the dataset into 4 equal parts. The 25th percentile is known as the first quartile (Q1), the 50th percentile as the median or second quartile (Q2), 
+and the 75th percentile as the third quartile (Q3).
+The minimum, first quartile, median, third quartile and the maximum of the data set.
+
+The interquartile range is the difference between the third quartile (Q3) and the first quartile (Q1).
+
+IQR = (Q3-Q1)
+
+This range is used to indicate the spread of the data and is a better measure than range because min and max (used in range) are highly volatile in the presence 
+of unusual values.
+
+Outliers are erratic data points observed in a data set. The mathematical definition is as follows:
+
+A point greater than Q3(75th percentile) + 1.5 x Inter quartile range or
+A point lesser than Q1(25th percentile) - 1.5 x Inter quartile range
+
+8) Skewness is the measure of symmetry of distributions. Also, skewness tells us about the direction of outliers.
+
+In a perfect symmetrically distributed data set,  the skewness is close to 0 and the mean is almost the same as the median. 
+
+A positively skewed distribution is the distribution with the tail on its right side i.e more number of outliers lie on the right side. 
+The value of skewness for a positively skewed distribution is greater than zero . Also the value of mean is greater than the median.
+
+A negatively skewed distribution is the distribution with the tail on its left side i.e more number of outliers lie on the left side. 
+The value of skewness for a negatively skewed distribution is less than zero. The value of mean is less than the median.
+
+Symmetric - mean=median
+Positively Skewed/ Right-Skewed - Tail on right is larger, mean > median
+Negatively Skewed / Left-Skewed - Tail on left is larger, mean < median
+
+Kurtosis is the measure of shape of the curve. It measures if the curve is normal, flat or peaked.  A higher value of kurtosis indicates that data is largely 
+centred around the mean (peaking) while a lower value of kurtosis indicates that data is not centred around the mean (flattening). 
+
+
+Day 2
+
+9) Probability
+
+For discrete random variable, probability disctribution is defined by the Probability Mass Function (PMF) where each value of the variable is associated with the probability. 
+If the discrete distribution has a finite number of values, we can display all the values with their corresponding probabilities in a table. 
+
+For continuous random variable, probability disctribution is defined by the the Probability Density Function (PDF). 
+Here probability  is defined over an interval of values than at a specific value, and is represented by the area under a curve. 
+The probability of observing any single value is equal to 0.
+
+In most of the cases, the data tends to be around a central value with no bias and this type of data distribution is known as normal distribution. 
+It is also known as Gaussian distribution or bell shaped frequency distribution curve.
+
+In probability theory, the Normal Distribution is symmetrical with a single central peak (unimodal) at the mean. 
+
+The curve is x-axis asymptote, i.e. two normal distribution tails never touch the x-axis and extend indefinitely.
+
+The normal distribution has two parameters, the mean and standard deviation. We can plot and model the normally distributed curves for 
+random variables with different values of µ (mean) and variance σ2.  
+Here, µ- position of the center of the probability density function,  σ2- determines the spread or the width.
+
+The Empirical Rule for the Normal Distribution
+In statistics, the 68–95–99.7 rule is known as the empirical rule. The empirical rule describes the percentage of the data 
+that fall within specific numbers of standard deviations from the mean for bell-shaped curves.
+
+Around 68% of values are within 1 standard deviation from the mean.
+Around 95% of values are within 2 standard deviations from the mean.
+Around 99.7% of values are within 3 standard deviations from the mean.
+
+Note: Conventionally  the confidence level  is set at 95% which translates to significance level / critical value of 5% (0.05) 
+as most of the values lie within 2 standard deviations.
+
+
+
+10) What is Hypothesis testing?
+
+Hypothesis testing deals with collecting enough evidence about the hypothesis and based on the evidence collected, the test either accepts 
+or rejects the hypothesis about the population. Hypothesis testing is a vital process in inferential statistics.
+ 
+Hypothesis testing deals with collecting enough evidence about the hypothesis and based on the evidence collected, the test either accepts or rejects the hypothesis about the population. Hypothesis testing is a vital process in inferential statistics.
+ 
+Hypothesis testing starts with an assumption about the population variable or distribution. This assumption is called the null hypothesis 
+(denoted by H0). An alternative hypothesis (denoted by Ha), which is the opposite of  null hypothesis, is then defined. 
+The hypothesis-testing procedure involves using sample data to determine whether or not H0 can be rejected. 
+If H0 is rejected, the statistical conclusion is that the alternate hypothesis Ha is true.
+
+A significance level, represented by α, is an evidentiary standard.We get an alpha level by subtracting our confidence level from 100%. 
+For example, if you want to be 95 percent confident in your research, the alpha level would be 5%. 
+
+A small p (≤ α), reject the null hypothesis. 
+A large p (> α) means that the alternate hypothesis is weak. Hence do not reject the null hypothesis.
+In addition to p value and significance level, we can also use test statistics to reject or accept null hypothesis.
+
+11) T Distribution
+
+Students T Distribution or T Distribution is used in place of normal distribution when we have smaller sample size.
+Both Normal and t-distributions are symmetrical, when the degree of freedom = 1, μ =0 & σ = 1, but t-distribution is lower at the mean and higher 
+at the tails than the normal distribution. If the sample size is large, the shape of the t-distribution loses its flatness and is about the same 
+as the normal distribution.
+
+Following are the properties of t-Distribution:
+
+Its mean is equal to 0
+The probability distribution appears to be bell-shaped
+The variance is equal to r/(r-2) here r (degrees of freedom) > 2
+The variance is always greater than 1, although it is close to 1 if there are many degrees of freedom
+In the case of infinite degrees of freedom, the t distribution converges to the standard normal distribution
+The degree of freedom is the number of independent observations in a data set.
+
+12) T- test
+
+T-testing is used in hypothesis testing to decide if we should support or reject a null hypothesis.
+
+T-Test helps us in understanding whether two samples are similiar. For similiarity we rely on central tendency measure - Mean.
+
+Paired Two Sample For Means is used when sample data are naturally paired i.e same group with different observations is used for testing twice. 
+Two-Sample assuming Equal Variances test is used when the variances are the same. 
+The Two-Sample assuming UNequal Variances test is used when either when the variances are not the same or when we do not know if the variances are the same or not.
+
+13) Chi - Squared Distribution
+
+The value of Chi-Square distribution mean is its degree of freedom. The distributions of Chi-Square are skewed positively, 
+with the degree of skew decreasing with increasing levels of freedom. As the levels of freedom increase, 
+the distribution of the Chi-Square approaches a normal distribution.
+
+The distribution chi-square has the following characteristics:
+
+Mean = Number of degrees of freedom, i.e., μ = k, where k is the degree of freedom.
+2 * Number of degrees of freedom = variance, i.e., 2k = σ2.
+At the point when k ≥ 2, the most extreme value for Y occurs when χ2 = k - 2
+As the degrees of freedom rises, the chi-square bend approaches a typical dispersion.
+
+Importance of Chi Squared Distribution
+
+The chi-square distribution is essential for:
+
+Hypothesis testing
+Constructing confidence interval
+Goodness of fit
+Friedman’s analysis of variance by ranks
+The distribution is also important in discrete hedging of options in finance, as well as option pricing.
+
+14) Chi Squared Test
+
+A chi-square test for independence checks  whether distributions of categorical variables differ from each another.
+
+If the calculated chi value > critical chi value, reject the null hypothesis, else, fail to reject the Null hypothesis.
+
+15) Correlation 
+
+It measures the strength of linear association between the variables under consideration. The range of correlation lies between -1 to +1 where
+
+1 implies strong positive linear relation
+0 implies no relation
+-1 implies strong negative linear relation
+
+16) Regression Analysis 
+
+Regression analysis statistical way of determining the relationship between dependent and independent variables. 
+It is used for prediction and forecasting. The variables may be linearly or non-linearly related. If, there is a high correlation between 
+the variables, then we build a linear regression model, else we build a nonlinear model.
+Model essentially is a mathematical function which resembles the equation below
+
+y = ax1 + bx2 + …… + Constant.
+
+The model that will be built will be a curve that will have data points on its either sides. 
+The aim is to build a model in such a way that there is minimum variance w.r.t the data points it covers.
+Regression analysis helps determine the governing rule. 
+
+Residual plots indicate the errors after the model is built.
+
+SLOPE, INTERCEPT, TREND and FORECAST.LINEAR functions:
+
+The SLOPE and INTERCEPT function take in known xs(Horsepower) and known ys(MPG.City) as arguments, 
+help in determining the slope and intercept of the model
+
+TREND and FORECAST.LINEAR help in determining unknown values. They take in Unknown xs along with known xs and known ys as arguments. 
+FORECAST.LINEAR is used for an array of data while trend suits for a single unknown value
+
+x--------------------------- x ------------ Notes --------------x---------------------------x
+
+The presence of extreme values (unusually large/small values) in the data affects the mean/average.
+Mean for a population is represented as µ ; Mean for a sample is represented as x̄
+
+Unlike Mean, Median does not get affected by the extreme values (unusually large/small values) in the data. 
+It is just a point that divides the dataset into two equal halves. 
+Thus, median can also be considered as an unbiased measure of central tendency.
+
+The range may be inadequate when looking at larger data sets which contain extreme values (as minimum and maximum)
+
+Skewness is a number and is not of same unit as the data. Skewness of zero indicates symmetric distribution, positive value indicates positively skewed and 
+negative value indicates negatively skewed.
+If distribution is skewed then there is no need to calculate Kurtosis. Kurtosis is a number and is not of same unit as the data.
+
+Note: Sum of the probability is equal to 1.
+
+Chi Squared test works best with categorical variables
+
+The "means" of the samples is the same. This statement is the null Hypothesis of T-Test
+
+X -------------- X----------------------- Formulas ------------- X ------------------------------ X
+
+Get formulas from net 
+
+1) f μ and σ2 > 0 is mean of X (normally distributed random variable) then,
+
+V- chi-square random variable
+
+v=(( X- μ)/σ)² =
+
+2) The Chi-Square static can be determined using:
